@@ -1,0 +1,11 @@
+/* このCSSファイルで使用する文字コードをUTF-8で記述することを設定 */
+@charset "utf-8";
+
+/* 各タグに対して値を初期化 */
+/* [1] それぞれのタグにあらかじめ設定されている余白の値を 0 に初期化する */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote { margin:0; padding:0; }
+/* [2] h1,h2,h3などの見出しタグに対してフォントサイズを 100% に初期化する */
+h1,h2,h3,h4,h5,h6 { font-size:100%; }
+
+/* 使用するフォントを設定*/
+body{ font-family:"Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック" ; }
